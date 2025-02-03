@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "rest_framework",
 
     "fbv_people",
-    "cbv_people"
+    "cbv_people",
+    "ns_books"
 ]
 
 MIDDLEWARE = [

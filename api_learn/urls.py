@@ -23,5 +23,6 @@ urlpatterns = [
 
     path('api-auth/', include('rest_framework.urls')),
     path("fbv-people/", include("fbv_people.urls")),
-    path("cbv-people/", include("cbv_people.urls"))
+    path("cbv-people/", include("cbv_people.urls")),
+    path("ns-books/", include("ns_books.urls"))
 ]
